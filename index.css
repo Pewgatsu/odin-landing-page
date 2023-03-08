@@ -6,23 +6,21 @@
   background-color: #1f2937;
   color: white;
   padding-top: 20px;
-  height: 700px;
-  display: flex;
-  /* flex-direction: row; */
+  height: 500px;
+  /* display: flex; */
 }
 
 .header {
   display: flex;
-  flex-direction: row;
+  margin-bottom: 90px;
+  /* border: 2px solid #3882f6; */
+
   justify-content: space-around;
-  margin-bottom: 50px;
-  border: 2px solid #3882f6;
 }
 
 .menu {
-  border: 2px solid #3882f6;
+  /* border: 2px solid #3882f6; */
   display: flex;
-  justify-content: space-around;
   gap: 20px;
 }
 
@@ -38,9 +36,10 @@
 }
 
 .hero {
-  border: 2px solid #3882f6;
+  /* border: 2px solid #3882f6; */
+
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -50,14 +49,17 @@
 }
 
 .hero-right {
-  border: 1px solid;
+  /* border: 1px solid; */
+
+  width: 500px;
 }
 
-.hero h1 {
+.hero-main-text {
   font-size: 48px;
+  font-weight: 800;
 }
 
-.hero p {
+.hero-subtext {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -119,19 +121,15 @@
   flex-direction: column;
   gap: 20px;
   width: 750px;
-  
-  
 }
 
 .quote {
   font-size: 36px;
   font-style: italic;
-  
 }
 
 .quote-author {
   align-self: end;
-  
 }
 
 .call-to-arms {
@@ -174,6 +172,4 @@
   height: 100px;
   font-size: 24px;
   font-weight: lighter;
-
 }
-
